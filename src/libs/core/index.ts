@@ -1,0 +1,11 @@
+export { CMSText1 } from './CMSText1';
+export { CMSText2 } from './CMSText2';
+export { CMSText3 } from './CMSText3';
+export { CMSText4 } from './CMSText4';
+export { CMSBody } from './CMSBody';
+export { CMSLabel } from './CMSLabel';
+export { CMSCaption } from './CMSCaption';
+export { CMSButton } from './CMSButton';
+export { CMSBlock } from './CMSBlock';
+export { CMSPage } from './CMSPage';
+export { CMSText10 } from './CMSText10';
