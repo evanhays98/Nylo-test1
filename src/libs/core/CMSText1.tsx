@@ -12,6 +12,7 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     margin: 0,
     width: 'fit-content',
     transition: 'all 0.2s ease-in-out',
+    borderBottom: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     borderTop: 'none',
@@ -20,8 +21,8 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     padding: 21,
     '&:hover': {},
   },
-  '@container (max-width: 768px)': { text: { fontSize: 30 } },
-  '@container (max-width: 480px)': { text: {} },
+  '@media (max-width: 768px)': { text: { fontSize: 30 } },
+  '@media (max-width: 480px)': { text: {} },
 }));
 
 type TextProps = React.HTMLAttributes<HTMLHeadingElement>;
