@@ -22,8 +22,8 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     padding: ['8px', '16px', '8px', '16px'],
     '&:hover': { background: 'var(--blueDark)' },
   },
-  '@container (max-width: 768px)': { blockColor: {} },
-  '@container (max-width: 480px)': { blockColor: {} },
+  '@media (max-width: 768px)': { blockColor: {} },
+  '@media (max-width: 480px)': { blockColor: {} },
   full: { width: '100%' },
 }));
 
