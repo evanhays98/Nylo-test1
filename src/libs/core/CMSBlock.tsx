@@ -5,11 +5,11 @@ import { theme, Theme } from '../theme';
 const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
   container: {
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'column',
     flexWrap: 'wrap',
     width: '100%',
     gap: 32,
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
     alignItems: 'center',
     height: 'auto',
     background: 'var(--blueLight)',
@@ -17,8 +17,8 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     borderRadius: 8,
     '&:hover': {},
   },
-  '@container (max-width: 768px)': { container: {} },
-  '@container (max-width: 480px)': { container: {} },
+  '@media (max-width: 768px)': { container: {} },
+  '@media (max-width: 480px)': { container: {} },
 }));
 
 type BlockProps = React.HTMLAttributes<HTMLDivElement>;
