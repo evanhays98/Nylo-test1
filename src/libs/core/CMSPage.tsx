@@ -4,7 +4,6 @@ import { theme, Theme } from '../theme';
 
 const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
   container: {
-    minHeight: 'calc(100vh - 110px)',
     display: 'flex',
     width: '100%',
     height: 'auto',
@@ -15,10 +14,8 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     borderRadius: 0,
     '&:hover': {},
   },
-  '@container (max-width: 768px)': { container: { width: '65%' } },
-  '@container (max-width: 480px)': {
-    container: { width: '70%', borderRadius: 0 },
-  },
+  '@container (max-width: 768px)': { container: {} },
+  '@container (max-width: 480px)': { container: {} },
 }));
 
 interface Props {
