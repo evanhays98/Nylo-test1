@@ -5,26 +5,23 @@ import { theme, Theme } from '../theme';
 const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
   text: {
     fontFamily: 'Montserrat',
-    color: 'var(--blue)',
+    color: 'var(--black)',
     fontWeight: 900,
-    fontSize: 26,
+    fontSize: 30,
     lineHeight: 1.5,
     margin: 0,
     width: 'fit-content',
     transition: 'all 0.2s ease-in-out',
-    borderBottom: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     borderTop: 'none',
-    borderRadius: 41,
-    padding: 21,
+    borderRadius: 46,
     background: 'var(--white)',
+    padding: 21,
     '&:hover': {},
   },
   '@container (max-width: 768px)': { text: { fontSize: 30 } },
-  '@container (max-width: 480px)': {
-    text: { borderRadius: 0, fontSize: 18, color: 'var(--white)' },
-  },
+  '@container (max-width: 480px)': { text: {} },
 }));
 
 type TextProps = React.HTMLAttributes<HTMLHeadingElement>;
