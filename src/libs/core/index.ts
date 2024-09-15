@@ -8,4 +8,3 @@ export { CMSCaption } from './CMSCaption';
 export { CMSButton } from './CMSButton';
 export { CMSBlock } from './CMSBlock';
 export { CMSPage } from './CMSPage';
-export { CMSText10 } from './CMSText10';
