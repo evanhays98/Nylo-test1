@@ -19,6 +19,94 @@ export const FirstPage = () => {
 
         <CMSText4 text="New Text"></CMSText4>
       </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+
+        <CMSText4 text="New Text"></CMSText4>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
+
+      <CMSBlock>
+        <CMSText2 text="New Text"></CMSText2>
+
+        <CMSText4 text="New Text"></CMSText4>
+      </CMSBlock>
     </CMSPage>
   );
 };
