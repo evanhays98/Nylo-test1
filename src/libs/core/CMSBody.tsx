@@ -15,11 +15,10 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     borderLeft: 'none',
     borderRight: 'none',
     borderTop: 'none',
-    borderRadius: 0,
     '&:hover': {},
   },
   '@container (max-width: 768px)': { text: {} },
-  '@container (max-width: 480px)': { text: { borderRadius: 0 } },
+  '@container (max-width: 480px)': { text: {} },
 }));
 
 interface Props {
