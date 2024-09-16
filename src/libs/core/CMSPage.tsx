@@ -9,7 +9,7 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     height: 'auto',
     gap: 16,
     flexDirection: 'column',
-    background: '{theme.colors.background}',
+    background: 'var(--background)',
     padding: 16,
     borderRadius: 0,
     '&:hover': {},
