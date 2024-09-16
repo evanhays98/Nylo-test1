@@ -12,7 +12,6 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     margin: 0,
     width: 'fit-content',
     transition: 'all 0.2s ease-in-out',
-    borderBottom: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     borderTop: 'none',
