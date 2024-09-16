@@ -15,8 +15,8 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     borderRadius: 0,
     '&:hover': {},
   },
-  '@media (max-width: 768px)': { container: {} },
-  '@media (max-width: 480px)': { container: {} },
+  '@media (max-width: 768px)': { container: { borderRadius: 0 } },
+  '@media (max-width: 480px)': { container: { borderRadius: 0 } },
 }));
 
 interface Props {
