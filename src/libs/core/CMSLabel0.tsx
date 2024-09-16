@@ -11,7 +11,6 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     lineHeight: 1.5,
     margin: 0,
     width: 'fit-content',
-    borderBottom: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     borderTop: 'none',
