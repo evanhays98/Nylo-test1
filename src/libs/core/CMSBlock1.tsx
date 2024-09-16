@@ -4,17 +4,18 @@ import { theme, Theme } from '../theme';
 
 const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
   container: {
-    display: 'block',
+    display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap',
     width: '100px',
     gap: 32,
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
     alignItems: 'center',
     height: '100px',
     background: theme.colors.red1,
     padding: 16,
     borderRadius: 8,
+    border: '1px solid var(--red3)',
     '&:hover': {},
   },
   '@media (max-width: 768px)': { container: {} },
