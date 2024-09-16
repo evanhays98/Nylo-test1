@@ -20,3 +20,4 @@ export { CMSBlock8 } from './CMSBlock8';
 export { CMSBlock9 } from './CMSBlock9';
 export { CMSBlock10 } from './CMSBlock10';
 export { CMSPage0 } from './CMSPage0';
+export { CMSLabel0 } from './CMSLabel0';
