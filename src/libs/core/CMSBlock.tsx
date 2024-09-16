@@ -5,14 +5,14 @@ import { theme, Theme } from '../theme';
 const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
   container: {
     display: 'flex',
-    flexDirection: 'column',
+    flexDirection: 'row',
     flexWrap: 'wrap',
     width: '100%',
     gap: 32,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'center',
     height: 'auto',
-    background: theme.colors.blueLight,
+    background: theme.colors.blue2,
     padding: 16,
     borderRadius: 8,
     '&:hover': {},
