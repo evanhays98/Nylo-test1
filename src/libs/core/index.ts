@@ -21,3 +21,7 @@ export { CMSBlock9 } from './CMSBlock9';
 export { CMSBlock10 } from './CMSBlock10';
 export { CMSPage0 } from './CMSPage0';
 export { CMSLabel0 } from './CMSLabel0';
+export { CMSLabel1 } from './CMSLabel1';
+export { CMSLabel2 } from './CMSLabel2';
+export { CMSLabel3 } from './CMSLabel3';
+export { CMSLabel4 } from './CMSLabel4';
