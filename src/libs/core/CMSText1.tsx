@@ -5,7 +5,7 @@ import { theme, Theme } from '../theme';
 const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
   text: {
     fontFamily: 'Montserrat',
-    color: 'theme.colors.black',
+    color: 'var(--black)',
     fontWeight: 900,
     fontSize: 30,
     lineHeight: 1.5,
@@ -17,7 +17,7 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     borderRight: 'none',
     borderTop: 'none',
     borderRadius: 46,
-    background: 'theme.colors.white',
+    background: 'var(--white)',
     padding: 21,
     '&:hover': {},
   },
