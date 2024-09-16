@@ -5,13 +5,12 @@ import { theme, Theme } from '../theme';
 const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
   text: {
     fontFamily: 'Montserrat, sans-serif',
-    color: theme.colors.black,
+    color: theme.colors.blue2,
     fontWeight: 700,
     fontSize: 14,
     lineHeight: 1.5,
     margin: 0,
     width: 'fit-content',
-    borderBottom: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     borderTop: 'none',
