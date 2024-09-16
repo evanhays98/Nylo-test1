@@ -5,16 +5,16 @@ import {
   CMSLabel,
   CMSBody,
   CMSBlock0,
+  CMSBlock6,
+  CMSLabel4,
+  CMSBlock10,
+  CMSLabel2,
+  CMSBlock1,
+  CMSLabel3,
   CMSBlock4,
   CMSLabel0,
   CMSBlock7,
   CMSLabel1,
-  CMSBlock10,
-  CMSLabel2,
-  CMSBlock6,
-  CMSLabel4,
-  CMSBlock1,
-  CMSLabel3,
 } from 'src/libs/core';
 export const FirstPage = () => {
   return (
@@ -26,6 +26,18 @@ export const FirstPage = () => {
       <CMSBody text="Start designing your unique creations now!"></CMSBody>
 
       <CMSBlock0>
+        <CMSBlock6>
+          <CMSLabel4 text="Diana"></CMSLabel4>
+        </CMSBlock6>
+
+        <CMSBlock10>
+          <CMSLabel2 text="Diana"></CMSLabel2>
+        </CMSBlock10>
+
+        <CMSBlock1>
+          <CMSLabel3 text="Diana"></CMSLabel3>
+        </CMSBlock1>
+
         <CMSBlock4>
           <CMSLabel0 text="Diana"></CMSLabel0>
         </CMSBlock4>
@@ -33,18 +45,6 @@ export const FirstPage = () => {
         <CMSBlock7>
           <CMSLabel1 text="Diana"></CMSLabel1>
         </CMSBlock7>
-
-        <CMSBlock10>
-          <CMSLabel2 text="Diana"></CMSLabel2>
-        </CMSBlock10>
-
-        <CMSBlock6>
-          <CMSLabel4 text="Diana"></CMSLabel4>
-        </CMSBlock6>
-
-        <CMSBlock1>
-          <CMSLabel3 text="Diana"></CMSLabel3>
-        </CMSBlock1>
       </CMSBlock0>
     </CMSPage0>
   );
