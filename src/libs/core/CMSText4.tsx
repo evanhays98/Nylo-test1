@@ -5,7 +5,7 @@ import { theme, Theme } from '../theme';
 const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
   text: {
     fontFamily: 'Montserrat, sans-serif',
-    color: 'var(--black)',
+    color: '{theme.colors.black}',
     fontWeight: 800,
     fontSize: 18,
     lineHeight: 1.5,
