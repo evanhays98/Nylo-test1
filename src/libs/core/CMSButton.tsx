@@ -5,7 +5,7 @@ import { theme, Theme } from '../theme';
 
 const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
   blockColor: {
-    background: 'var(--blue)',
+    background: theme.colors.blue,
     minWidth: '@Stheme.marginBase * 10@E',
     borderRadius: 8,
     color: '@Stheme.colors.background@E',
@@ -20,7 +20,7 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     transition: 'all 0.3s ease',
     width: 'fit-content',
     padding: ['8px', '16px', '8px', '16px'],
-    '&:hover': { background: 'var(--blueDark)' },
+    '&:hover': { background: theme.colors.blueDark },
   },
   '@media (max-width: 768px)': { blockColor: {} },
   '@media (max-width: 480px)': { blockColor: {} },
