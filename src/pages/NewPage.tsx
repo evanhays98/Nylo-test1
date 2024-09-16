@@ -1,77 +1,108 @@
 import React from 'react';
-import { CMSPage, CMSText1, CMSLabel, CMSBody, CMSBlock } from 'src/libs/core';
+import {
+  CMSPage,
+  CMSBlock0,
+  CMSBlock1,
+  CMSBlock2,
+  CMSBlock3,
+  CMSBlock4,
+  CMSBlock6,
+  CMSBlock8,
+  CMSBlock9,
+  CMSBlock7,
+  CMSBlock5,
+  CMSBlock10,
+} from 'src/libs/core';
 export const NewPage = () => {
   return (
     <CMSPage>
-      <CMSText1 text="Create & Customize Your Dream Components"></CMSText1>
+      <CMSBlock0>
+        <CMSBlock1></CMSBlock1>
 
-      <CMSLabel text="Unleash your creativity! Easily add, create, and style components to bring your ideas to life."></CMSLabel>
+        <CMSBlock2></CMSBlock2>
 
-      <CMSBody text="Start designing your unique creations now!"></CMSBody>
+        <CMSBlock1></CMSBlock1>
 
-      <CMSBlock>
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock3></CMSBlock3>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
-      </CMSBlock>
+        <CMSBlock1></CMSBlock1>
+      </CMSBlock0>
 
-      <CMSBlock>
-        <CMSLabel text="New Text"></CMSLabel>
+      <CMSBlock0>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock4></CMSBlock4>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
-      </CMSBlock>
+        <CMSBlock1></CMSBlock1>
 
-      <CMSBlock>
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock6></CMSBlock6>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
+      </CMSBlock0>
 
-        <CMSLabel text="New Text"></CMSLabel>
+      <CMSBlock0>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
-      </CMSBlock>
+        <CMSBlock8></CMSBlock8>
 
-      <CMSBlock>
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock9></CMSBlock9>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
 
-        <CMSLabel text="New Text"></CMSLabel>
+        <CMSBlock1></CMSBlock1>
+      </CMSBlock0>
 
-        <CMSLabel text="New Text"></CMSLabel>
-      </CMSBlock>
+      <CMSBlock0>
+        <CMSBlock1></CMSBlock1>
+
+        <CMSBlock7></CMSBlock7>
+
+        <CMSBlock1></CMSBlock1>
+
+        <CMSBlock1></CMSBlock1>
+
+        <CMSBlock1></CMSBlock1>
+
+        <CMSBlock5></CMSBlock5>
+
+        <CMSBlock1></CMSBlock1>
+
+        <CMSBlock1></CMSBlock1>
+
+        <CMSBlock10></CMSBlock10>
+
+        <CMSBlock1></CMSBlock1>
+      </CMSBlock0>
     </CMSPage>
   );
 };
