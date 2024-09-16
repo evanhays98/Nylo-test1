@@ -12,7 +12,7 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     height: 'auto',
-    background: 'theme.colors.blueLight',
+    background: 'var(--blueLight)',
     padding: 16,
     borderRadius: 8,
     '&:hover': {},
