@@ -1,10 +1,10 @@
 const basicColors = {
-  white: "#fbfeff";
-  black: "#010c0e";
-  background: "#ADD8E6";
-  blue: "#22778e";
-  blueDark: "#0b303a";
-  blueLight: "#89b0bd";
+  white: "#fbfeff",
+  black: "#010c0e",
+  background: "#ADD8E6",
+  blue: "#22778e",
+  blueDark: "#0b303a",
+  blueLight: "#89b0bd",
 
 };
 
