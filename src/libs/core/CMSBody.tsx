@@ -15,6 +15,7 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     borderLeft: 'none',
     borderRight: 'none',
     borderTop: 'none',
+    borderRadius: 0,
     '&:hover': {},
   },
   '@media (max-width: 768px)': { text: {} },
