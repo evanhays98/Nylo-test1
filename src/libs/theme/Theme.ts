@@ -86,7 +86,6 @@ const basicColors = {
   brown10: "#533a31",
   brown11: "#3a2822",
   brown12: "#201613",
-  transparent: "#ffffff00",
 
 };
 
