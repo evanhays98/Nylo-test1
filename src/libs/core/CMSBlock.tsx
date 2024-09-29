@@ -13,6 +13,7 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     alignItems: 'center',
     height: 'auto',
     background: theme.colors.blue2,
+    position: 'initial',
     padding: 16,
     borderRadius: 8,
     '&:hover': {},
