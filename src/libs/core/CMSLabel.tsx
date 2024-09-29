@@ -15,10 +15,10 @@ const useStyles = createUseStyles<string, {}, any>((theme: Theme) => ({
     borderLeft: 'none',
     borderRight: 'none',
     borderTop: 'none',
-    borderRadius: 0,
+    position: 'initial',
     '&:hover': {},
   },
-  '@media (max-width: 768px)': { text: { borderRadius: 0 } },
+  '@media (max-width: 768px)': { text: {} },
   '@media (max-width: 480px)': { text: {} },
 }));
 
